@@ -1,0 +1,31 @@
+{
+  "name": "graphmovie",
+  "version": "1.0.0",
+  "description": "movie api using graphql",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjkimGithub/movieql.git"
+  },
+  "author": "hjkim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hjkimGithub/movieql/issues"
+  },
+  "homepage": "https://github.com/hjkimGithub/movieql#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  }
+}
